@@ -49,7 +49,7 @@
 
     ```bash
     https://github.com/Alanbiju255/lumixsoft-mini-controller.git
-    cd lumixsoft
+    cd lumixsoft-mini-controller
     ```
 
 2. (Optional but recommended) Create and activate a virtual environment:

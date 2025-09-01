@@ -4,71 +4,93 @@
 
 ---
 
-## Features🌟
+## Features 🌟
 
-- **Full-Screen Splash / Loading Screen**
-  - Custom splash screen with animated loading progress.
+- **Full-Screen Splash / Loading Screen**  
+  - Custom splash screen with animated loading progress.  
   - Hides default Streamlit menu and footer for a clean interface.
 
-- **Media Management**📂🎶 
-  - Drag & drop or browse media files (images, videos, audio) up to 200MB.
-  - Organize media into a library with search functionality.
+- **Media Management** 📂🎶  
+  - Drag & drop or browse media files (images, videos, audio) up to 200MB.  
+  - Organize media into a library with search functionality.  
   - Send media files to Preview or Program screens.
 
-- **Overlay Support**🖼️🎥  
-  - Upload image or video overlays.
-  - Adjustable overlay opacity for images.
+- **Overlay Support** 🖼️🎥  
+  - Upload image or video overlays.  
+  - Adjustable overlay opacity for images.  
   - Apply overlay on program screen live.
 
-- **Preview & Program Screens**👀📺  
-  - Preview media before sending it live.
-  - Program screen simulates live broadcast.
-  - Supports images, videos, and audio files.
+- **Preview & Program Screens** 👀📺  
+  - Preview media before sending it live.  
+  - Program screen simulates live broadcast.  
+  - Supports images, videos, and audio files.  
   - Optional fullscreen display on selected HDMI output.
 
-- **HDMI Settings**🔌🖥️  
-  - Detects connected monitors.
-  - Select output screen and resolution.
+- **HDMI Settings** 🔌🖥️  
+  - Detects connected monitors.  
+  - Select output screen and resolution.  
   - Toggle fullscreen output for HDMI displays.
 
-- **Audio Mixer**🔊🎚️  
-  - Master volume control.
+- **Audio Mixer** 🔊🎚️  
+  - Master volume control.  
   - Individual volume sliders and mute options for each audio/video file.
 
-- **Session Management**💾🕹️ 
+- **Session Management** 💾🕹️  
   - Saves state for uploaded media, loops, overlays, and program preview.
 
 ---
 
-## Installation⚙️
+## Installation ⚙️
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/lumixsoft.git
-cd lumixsoft
+    ```bash
+    git clone https://github.com/your-username/lumixsoft.git
+    cd lumixsoft
+    ```
 
-Create a virtual environment (optional but recommended):
+2. (Optional but recommended) Create and activate a virtual environment:
 
-```bash
+    - On Linux/macOS:
 
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
+      ```bash
+      python -m venv venv
+      source venv/bin/activate
+      ```
 
-Install dependencies:
+    - On Windows:
 
-```bash
-pip install -r requirements.txt
+      ```bash
+      python -m venv venv
+      venv\Scripts\activate
+      ```
 
+3. Install dependencies:
 
-Run the app:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-```bash
+4. Run the app:
 
-streamlit run app.py
+    ```bash
+    streamlit run app.py
+    ```
 
+---
 
+## Usage 🖱️
 
+- Upload media via the **Media Library** section.  
+- Drag media to **Preview** or **Program** screen.  
+- Adjust overlay opacity and audio levels as needed.  
+- Toggle fullscreen output for HDMI screens.  
+- Save and restore session settings automatically.
 
+---
 
+## Contributing 🤝
+
+Contributions are welcome! Please open an issue or submit a pull request with improvements, bug fixes, or new features.
+
+---

@@ -3,7 +3,8 @@
 **LumixSoft Mini Controller** is a Streamlit-based live production tool designed to manage and preview multimedia content (images, videos, and audio) for live displays. It includes features like media upload, overlay application, program and preview screens, audio mixing, and HDMI output simulation.
 
 ---
-
+<img src="https://image2url.com/images/1756717695689-48bc2a02-31cb-430f-8314-a59fafa4e347.png" alt="LumixSoft Logo" width="200"/>
+---
 ## Features 🌟
 
 - **Full-Screen Splash / Loading Screen**  
